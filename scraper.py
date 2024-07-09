@@ -8,7 +8,6 @@ from selenium.webdriver.common.by import By
 
 import time
 
-## testing number 2
 
 def scraper(driver, nome, id_page, conn, cursor):
     cursor.execute(constants.SQL_SELECT_URL, (id_page,))
